@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: shl-assessment-engine
+    env: python
+    buildCommand: ""
+    startCommand: streamlit run main.py
+    plan: free
