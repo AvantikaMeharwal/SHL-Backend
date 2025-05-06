@@ -6,7 +6,7 @@ from recommendation_engine import recommend_assessments
 app = FastAPI()
 
 # Load dataset once at startup
-catalog_df = pd.read_csv("SHL_Assessment_catalog.csv")
+catalog_df = pd.read_csv("shl_product_catalogue.csv")
 
 class QueryInput(BaseModel):
     query: str
